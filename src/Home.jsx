@@ -61,7 +61,7 @@ const Section = styled.div`
             color: #6d4f47;
         }
     }
-    @media screen and (max-width: 2650px){
+    @media screen and (max-width: 2561px){
         .overlay {
             img {
                 margin-top: 15px;
@@ -84,7 +84,7 @@ const Section = styled.div`
             }
         }
     }
-    @media screen and (max-width: 1440px){
+    @media screen and (max-width: 1441px){
         .overlay {
             img {
                 margin-top: 15px;
