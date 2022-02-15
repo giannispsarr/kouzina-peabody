@@ -11,8 +11,6 @@ export default function Home() {
         </div>
         <div className='brand'>
             <img src={Logo04} alt='' />
-        </div>
-        <div className='brand-header'>
             <h1>Coming April 2022</h1>
         </div>
       </Section>
@@ -33,26 +31,15 @@ const Section = styled.div`
         }
     }
     .brand {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        margin-top: -615px;
-        margin-left: 20px;
-        inset: 0;
+        display: grid;
+        margin-top: -32.5%;
         z-index: 2;
         img {
             width: 1770px;
+            justify-self: center;
         }
-    }
-    .brand-header{
-        position: absolute;
-        inset: 0;
-        display: flex;
-        margin-top: 23%;
-        justify-content: center;
-        z-index: 2;
         h1 {
+            justify-self: center;
             font-size: 8rem;
             font-family: 'Commissioner', sans-serif;
             font-weight: 400;
@@ -61,46 +48,37 @@ const Section = styled.div`
             color: #6d4f47;
         }
     }
-    @media screen and (max-width: 2561px){
+    @media screen and (max-width: 2560px){
         .overlay {
             img {
-                margin-top: 15px;
-                width: 1425px;
+                margin-top: 5px;
+                width: 590px;
             }
         }
         .brand {
-            margin-top: -520px;
+            margin-top: -475px;
             margin-left: 15px;
             img {
-                width: 930px;
+                width: 410px;
             }
-        }
-        .brand-header{
-            margin-top: 820px;
-            margin-left: 10px;
             h1 {
-                font-size: 4.4rem;
+                font-size: 2.2rem;
                 letter-spacing: 0.03rem;
             }
         }
     }
-    @media screen and (max-width: 1441px){
+    @media screen and (max-width: 1440px){
         .overlay {
             img {
-                margin-top: 15px;
-                width: 725px;
+                margin-top: 4px;
+                width: 590px;
             }
         }
         .brand {
-            margin-top: -300px;
-            margin-left: 10px;
+            margin-top: -477px;
             img {
-                width: 500px;
+                width: 440px;
             }
-        }
-        .brand-header{
-            margin-top: 420px;
-            margin-left: 10px;
             h1 {
                 font-size: 2.2rem;
                 letter-spacing: 0.05rem;
@@ -110,23 +88,18 @@ const Section = styled.div`
     @media screen and (max-width: 1024px){
         .overlay {
             img {
-                margin-top: 10px;
-                width: 725px;
+                margin-top: 5px;
+                width: 58%;
             }
         }
         .brand {
-            margin-top: -195px;
-            margin-left: 10px;
+            margin-top: -47%;
             img {
-                width: 490px;
+                width: 420px;
             }
-        }
-        .brand-header{
-            margin-top: 405px;
-            margin-left: 10px;
             h1 {
-                font-size: 2.3rem;
-                letter-spacing: 0.05rem;
+                font-size: 1.9rem;
+                letter-spacing: 0.03rem;
             }
         }
     }
@@ -138,15 +111,10 @@ const Section = styled.div`
             }
         }
         .brand {
-            margin-left: 4px;
-            margin-top: -146px;
+            margin-top: -425px;
             img {
-                width: 368px;
+                width: 50%;
             }
-        }
-        .brand-header{
-            margin-top: 307px;
-            margin-left: 4px;
             h1 {
                 font-size: 1.75rem;
                 letter-spacing: 0.04rem;
@@ -161,15 +129,10 @@ const Section = styled.div`
             }
         }
         .brand {
-            margin-top: -213px;
-            margin-left: 2px;
+            margin-top: -333px;
             img {
                 width: 68%;
             }
-        }
-        .brand-header{
-            margin-top: 258px;
-            margin-left: 3px;
             h1 {
                 font-size: 141%;
                 letter-spacing: 0.02rem;
@@ -184,14 +147,11 @@ const Section = styled.div`
             }
         }
         .brand {
-            margin-top: -225px;
+            margin-top: -295px;
             margin-left: 2px;
             img {
                 width: 67%;
             }
-        }
-        .brand-header{
-            margin-top: 247px;
             h1 {
                 font-size: 1.31rem;
                 letter-spacing: 0.01rem;
@@ -206,14 +166,11 @@ const Section = styled.div`
             }
         }
         .brand {
-            margin-top: -235px;
+            margin-top: -248px;
             margin-left: 3px;
             img {
                 width: 69%;
             }
-        }
-        .brand-header{
-            margin-top: 240px;
             h1 {
                 font-size: 115%;
                 letter-spacing: 0.005rem;
