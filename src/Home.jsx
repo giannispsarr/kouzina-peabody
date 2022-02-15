@@ -61,7 +61,7 @@ const Section = styled.div`
             color: #6d4f47;
         }
     }
-    @media screen and (max-width: 1024px){
+    /* @media screen and (max-width: 1024px){
         .overlay {
             img {
                 margin-top: 10px;
@@ -83,7 +83,7 @@ const Section = styled.div`
                 letter-spacing: 0.05rem;
             }
         }
-    }
+    } */
     @media screen and (max-width: 768px){
         .overlay {
             img {
