@@ -61,7 +61,53 @@ const Section = styled.div`
             color: #6d4f47;
         }
     }
-    /* @media screen and (max-width: 1024px){
+    @media screen and (max-width: 2650px){
+        .overlay {
+            img {
+                margin-top: 15px;
+                width: 1425px;
+            }
+        }
+        .brand {
+            margin-top: -520px;
+            margin-left: 15px;
+            img {
+                width: 930px;
+            }
+        }
+        .brand-header{
+            margin-top: 820px;
+            margin-left: 10px;
+            h1 {
+                font-size: 4.4rem;
+                letter-spacing: 0.03rem;
+            }
+        }
+    }
+    @media screen and (max-width: 1440px){
+        .overlay {
+            img {
+                margin-top: 15px;
+                width: 725px;
+            }
+        }
+        .brand {
+            margin-top: -300px;
+            margin-left: 10px;
+            img {
+                width: 500px;
+            }
+        }
+        .brand-header{
+            margin-top: 420px;
+            margin-left: 10px;
+            h1 {
+                font-size: 2.2rem;
+                letter-spacing: 0.05rem;
+            }
+        }
+    }
+    @media screen and (max-width: 1024px){
         .overlay {
             img {
                 margin-top: 10px;
@@ -83,7 +129,7 @@ const Section = styled.div`
                 letter-spacing: 0.05rem;
             }
         }
-    } */
+    }
     @media screen and (max-width: 768px){
         .overlay {
             img {
