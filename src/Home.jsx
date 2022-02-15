@@ -88,14 +88,14 @@ const Section = styled.div`
     @media screen and (max-width: 1024px){
         .overlay {
             img {
-                margin-top: 5px;
-                width: 58%;
+                margin-top: 7px;
+                width: 605px;
             }
         }
         .brand {
-            margin-top: -47%;
+            margin-top: -488px;
             img {
-                width: 420px;
+                width: 430px;
             }
             h1 {
                 font-size: 1.9rem;
@@ -113,10 +113,46 @@ const Section = styled.div`
         .brand {
             margin-top: -425px;
             img {
-                width: 50%;
+                width: 380px;
             }
             h1 {
-                font-size: 1.75rem;
+                font-size: 1.7rem;
+                letter-spacing: 0.04rem;
+            }
+        }
+    }
+    @media screen and (max-width: 530px){
+        .overlay {
+            img {
+                margin-top: 13px;
+                width: 450px;
+            }
+        }
+        .brand {
+            margin-top: -360px;
+            img {
+                width: 320px;
+            }
+            h1 {
+                font-size: 1.5rem;
+                letter-spacing: 0.04rem;
+            }
+        }
+    }
+    @media screen and (max-width: 446px){
+        .overlay {
+            img {
+                margin-top: 13px;
+                width: 410px;
+            }
+        }
+        .brand {
+            margin-top: -335px;
+            img {
+                width: 300px;
+            }
+            h1 {
+                font-size: 1.5rem;
                 letter-spacing: 0.04rem;
             }
         }
@@ -125,16 +161,34 @@ const Section = styled.div`
         .overlay {
             img {
                 margin-top: 21px;
-                width: 97%;
+                width: 400px;
             }
         }
         .brand {
-            margin-top: -333px;
+            margin-top: -320px;
             img {
-                width: 68%;
+                width: 290px;
             }
             h1 {
-                font-size: 141%;
+                font-size: 1.41rem;
+                letter-spacing: 0.02rem;
+            }
+        }
+    }
+    @media screen and (max-width: 400px){
+        .overlay {
+            img {
+                margin-top: 30px;
+                width: 380px;
+            }
+        }
+        .brand {
+            margin-top: -310px;
+            img {
+                width: 270px;
+            }
+            h1 {
+                font-size: 1.3rem;
                 letter-spacing: 0.02rem;
             }
         }
@@ -142,38 +196,54 @@ const Section = styled.div`
     @media screen and (max-width: 376px){
         .overlay {
             img {
-                margin-top: 10%;
-                width: 98%;
+                margin-top: 70px;
+                width: 335px;
             }
         }
         .brand {
-            margin-top: -295px;
-            margin-left: 2px;
+            margin-top: -270px;
             img {
-                width: 67%;
+                width: 240px;
             }
             h1 {
-                font-size: 1.31rem;
-                letter-spacing: 0.01rem;
+                font-size: 1.2rem;
+                letter-spacing: 0rem;
             }
         }
     }
     @media screen and (max-width: 320px){
         .overlay {
             img {
-                margin-top: 20%;
-                width: 96%;
+                margin-top: 70px;
+                width: 305px;
             }
         }
         .brand {
-            margin-top: -248px;
-            margin-left: 3px;
+            margin-top: -245px;
             img {
-                width: 69%;
+                width: 220px;
             }
             h1 {
-                font-size: 115%;
-                letter-spacing: 0.005rem;
+                font-size: 1.1rem;
+                letter-spacing: 0rem
+            }
+        }
+    }
+    @media screen and (max-width: 300px){
+        .overlay {
+            img {
+                margin-top: 70px;
+                width: 280px;
+            }
+        }
+        .brand {
+            margin-top: -225px;
+            img {
+                width: 200px;
+            }
+            h1 {
+                font-size: 1rem;
+                letter-spacing: 0rem
             }
         }
     }
