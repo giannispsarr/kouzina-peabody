@@ -48,7 +48,7 @@ const Section = styled.div`
             color: #6d4f47;
         }
     }
-    @media screen and (max-width: 2560px){
+    @media screen and (max-width: 2560px) and (max-height: 800px){
         .overlay {
             img {
                 margin-top: 5px;
@@ -67,7 +67,45 @@ const Section = styled.div`
             }
         }
     }
-    @media screen and (max-width: 1440px){
+    @media screen and (max-width: 2560px) and (min-height: 901px){
+        .overlay {
+            img {
+                margin-top: 10px;
+                width: 750px;
+            }
+        }
+        .brand {
+            margin-top: -598px;
+            margin-left: 10px;
+            img {
+                width: 520px;
+            }
+            h1 {
+                font-size: 2.3rem;
+                letter-spacing: 0.03rem;
+            }
+        }
+    }
+    @media screen and (max-width: 2560px) and (min-height: 801px) and (max-height: 900px){
+        .overlay {
+            img {
+                margin-top: 5px;
+                width: 690px;
+            }
+        }
+        .brand {
+            margin-top: -545px;
+            margin-left: 10px;
+            img {
+                width: 470px;
+            }
+            h1 {
+                font-size: 2.3rem;
+                letter-spacing: 0.03rem;
+            }
+        }
+    }
+    @media screen and (max-width: 1440px) and (max-height: 800px){
         .overlay {
             img {
                 margin-top: 4px;
@@ -85,20 +123,56 @@ const Section = styled.div`
             }
         }
     }
+    @media screen and (max-width: 1440px) and (min-height: 801px) and (max-height: 880px) {
+        .overlay {
+            img {
+                margin-top: 4px;
+                width: 680px;
+            }
+        }
+        .brand {
+            margin-top: -540px;
+            img {
+                width: 465px;
+            }
+            h1 {
+                font-size: 2.25rem;
+                letter-spacing: 0.05rem;
+            }
+        }
+    }
+    @media screen and (max-width: 1440px) and (min-height: 881px){
+        .overlay {
+            img {
+                margin-top: 4px;
+                width: 745px;
+            }
+        }
+        .brand {
+            margin-top: -590px;
+            img {
+                width: 490px;
+            }
+            h1 {
+                font-size: 2.3rem;
+                letter-spacing: 0.05rem;
+            }
+        }
+    }
     @media screen and (max-width: 1024px){
         .overlay {
             img {
                 margin-top: 7px;
-                width: 605px;
+                width: 660px;
             }
         }
         .brand {
-            margin-top: -488px;
+            margin-top: -525px;
             img {
-                width: 430px;
+                width: 450px;
             }
             h1 {
-                font-size: 1.9rem;
+                font-size: 1.95rem;
                 letter-spacing: 0.03rem;
             }
         }
