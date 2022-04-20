@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div className='brand'>
             <img src={Logo04} alt='' />
-            <h1>Coming April 2022</h1>
+            <h1>Coming May 2022</h1>
         </div>
       </Section>
   </div>);
