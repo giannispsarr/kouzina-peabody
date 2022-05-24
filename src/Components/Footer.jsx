@@ -128,6 +128,46 @@ const Section = styled.footer`
       letter-spacing: 0.1rem;
     }
   }
+  @media screen and (max-width: 2560px) {
+    width: inherit;
+    gap: 0vw;
+    padding-top: 0.5rem;
+    .brand-container{
+      h3 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+        }
+        ul {
+        gap: 4vw;
+        li {
+          padding: 0.5rem;
+          border-radius: 3rem;
+          svg {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    .image-container {
+      img {
+        width: 15rem;
+      }
+    }
+    .contact-container {
+      .title{
+        h3 {
+          font-size: 2.2rem;
+        }
+      }
+      p {
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
   @media screen and (max-width: 1440px) {
     width: inherit;
     gap: 0vw;

@@ -68,6 +68,20 @@ const VideoContainer = styled.div`
             width: 1800px;
         }
     }
+    @media screen and (max-width: 2560px) {
+        .welcomeCard {
+            padding-top: 5rem;
+            h1 {
+                letter-spacing: 6px;
+                padding-bottom: 2rem;
+                font-size: 3rem;                
+                line-height: 1.5;
+            }
+            img {
+                width: 430px;
+            }
+        }
+    }
     @media screen and (max-width: 1440px) {
         .welcomeCard {
             padding-top: 5rem;
