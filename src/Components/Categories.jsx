@@ -102,7 +102,7 @@ const Categories = ({ categories, filterItems }) => {
             }
         }
     }
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 2560px) {
       .cat-container{
         justify-content: center;
         align-self: center;

@@ -339,6 +339,13 @@ const LowerFooter = styled.div`
       color: #b89f93;
     }
   }
+  @media screen and (max-width: 2560px) {
+    width: inherit;
+    margin-left: 0;
+    h2 {
+      font-size: 0.6rem;
+    }
+  }
   @media screen and (max-width: 1440px) {
     width: inherit;
     margin-left: 0;
