@@ -46,6 +46,7 @@ const VideoContainer = styled.div`
         z-index: 1;
         display: block;
         justify-self: center;
+        align-self: -webkit-center;
         padding-top: 30rem;
         h1 {
             justify-self: center;
