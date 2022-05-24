@@ -44,12 +44,13 @@ const VideoContainer = styled.div`
     .welcomeCard {
         position: absolute;
         z-index: 1;
-        display: block;
+        display: grid;
+        grid-template-columns: 3fr;
         justify-self: center;
-        align-self: -webkit-center;
         padding-top: 30rem;
         h1 {
             justify-self: center;
+            grid-column: 2;
             text-align: -webkit-center;
             letter-spacing: 13px;
             padding-bottom: 1rem;
@@ -61,6 +62,7 @@ const VideoContainer = styled.div`
         }
         img {
             width: 1800px;
+            grid-column: 2;
         }
     }
     @media screen and (max-width: 2560px) {
