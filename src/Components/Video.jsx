@@ -43,24 +43,19 @@ const VideoContainer = styled.div`
     }
     .welcomeCard {
         position: absolute;
+        position: -webkit-absolute;
         z-index: 1;
         display: grid;
         justify-self: center;
         padding-top: 30rem;
-        /* align-self: center; */
-        /* justify-content: center;
-        align-items: center; */
-        /* object-fit: cover; */
         h1 {
             justify-self: center;
+            text-align: -webkit-center;
             letter-spacing: 13px;
             padding-bottom: 1rem;
             font-size: 9rem;
             font-weight: 400;
-            /* opacity: 0.9; */
             font-family: 'Commissioner', sans-serif;
-            /* text-transform: uppercase; */
-            
             line-height: 1.5;
             color: #b8c2c5;
         }
