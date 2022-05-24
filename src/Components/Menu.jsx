@@ -74,7 +74,7 @@ const MenuSection = styled.div`
       margin-right: auto;
     }
   }
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 2560px) {
     width: inherit;
     padding-top: 3rem;
     padding-bottom: 3rem;

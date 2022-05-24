@@ -81,7 +81,7 @@ const SectionCenter = styled.div`
           }
       }
   }
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 2560px) {
     margin-top: -8rem;
       .display-container{
         width: 100%;

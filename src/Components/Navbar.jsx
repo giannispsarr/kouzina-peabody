@@ -238,6 +238,23 @@ const Nav = styled.nav`
         }
     }
 }
+    @media screen and (max-width: 2560px) {
+        .brand {
+            /* width: 100%; */
+            img {
+                width: 290px;
+            }
+        }
+        .links {
+            gap: 1.2rem;
+            li {
+                a {
+                    font-size: 1.2rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+        }
+    }
     @media screen and (max-width: 1440px) {
         .brand {
             /* width: 100%; */

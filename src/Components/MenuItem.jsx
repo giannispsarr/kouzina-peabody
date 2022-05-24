@@ -56,7 +56,7 @@ const Menuitem = styled.div`
       }
     }
   }
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 2560px) {
     width: 24rem;
     height: auto;
     .menuItem-head {
