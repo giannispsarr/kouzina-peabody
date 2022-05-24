@@ -242,7 +242,7 @@ const Nav = styled.nav`
         .brand {
             /* width: 100%; */
             img {
-                width: 250px;
+                width: 220px;
             }
         }
         .links {

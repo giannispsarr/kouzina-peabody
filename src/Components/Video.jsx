@@ -43,9 +43,8 @@ const VideoContainer = styled.div`
     }
     .welcomeCard {
         position: absolute;
-        position: -webkit-absolute;
         z-index: 1;
-        display: grid;
+        display: block;
         justify-self: center;
         padding-top: 30rem;
         h1 {
