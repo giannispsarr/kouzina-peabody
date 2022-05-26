@@ -159,7 +159,7 @@ const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(50deg, #cabeb3, #b89f93);
-    /* padding: 2rem 2rem; */
+    padding: 1rem 1rem;
     .brand {
         display: flex;
         justify-content: flex-start;
@@ -249,7 +249,7 @@ const Nav = styled.nav`
             gap: 1.2rem;
             li {
                 a {
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     letter-spacing: 0.1rem;
                 }
             }
