@@ -159,7 +159,7 @@ const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(50deg, #cabeb3, #b89f93);
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
     .brand {
         display: flex;
         justify-content: flex-start;
