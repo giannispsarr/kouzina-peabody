@@ -28,15 +28,15 @@ export default function Gallery() {
                 <div className='gallery-title'>
                     <h2>Gallery</h2>
                     <div className='gallery-underline'/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p> */}
                 </div>
             </div>
             <div className='gallery-images'>
                 <div className='images-container' ref={scrollRef}>
-                {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
+                {[images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05, images.gallery06].map((image, index) => (
                     <div className="images-card " key={`gallery-image-${index + 1}`}>
                     <img src={image} alt="gallery-image" />
-                    <BsInstagram className="image-icon" />
+                    {/* <BsInstagram className="image-icon" /> */}
                     </div>
                 ))}
                 </div>
@@ -62,7 +62,7 @@ const GallerySection = styled.div`
         flex: 1;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        /* align-items: flex-start; */
         flex-direction: column;
         /* min-width: 1000px; */
         /* padding-right: 2rem; */
@@ -169,6 +169,52 @@ const GallerySection = styled.div`
             }
         }
     }
+    @media screen and (max-width: 2560px) {
+        width: inherit;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        .gallery-content {
+            .gallery-title {
+                margin-bottom: 2rem;
+                padding-top: 2rem;
+                h2 {
+                    letter-spacing: 5px;
+                    font-size: 2rem;
+                    line-height: 1;
+                    margin-bottom: 0.75rem;
+                }
+                .gallery-underline {
+                    width: 1.9rem;
+                    height: 0.1rem;
+                }
+                p {
+                    font-size: 1.1rem;
+                    line-height: 1.3;
+                }
+            }
+        }
+        .gallery-images {
+            .images-card {
+                min-width: 240px;
+                height: 320px;
+            }
+            .image-icon {
+                font-size: 2rem;
+                &:hover {
+                    font-size: 3rem;
+                }
+            }
+            .images-arrows {
+                width: 93%;
+                padding-left: 0.7rem;
+                bottom: 3%;
+                .arrow-icon {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
     @media screen and (max-width: 1440px) {
         width: inherit;
         padding-top: 3rem;
@@ -484,7 +530,7 @@ const GalleryOverline = styled.div`
         margin-left: auto;
         margin-right: auto;
     }
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 2560px) {
         .gallery-overline {
             height: 0.2rem;
         }
