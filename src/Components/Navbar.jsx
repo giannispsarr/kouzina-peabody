@@ -239,6 +239,7 @@ const Nav = styled.nav`
     }
 }
     @media screen and (max-width: 2560px) {
+        padding: 0.5rem 0.5rem;
         .brand {
             /* width: 100%; */
             img {
@@ -249,7 +250,7 @@ const Nav = styled.nav`
             gap: 1.2rem;
             li {
                 a {
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     letter-spacing: 0.1rem;
                 }
             }
