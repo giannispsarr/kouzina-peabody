@@ -23,18 +23,18 @@ const VideoContainer = styled.div`
         object-fit: cover;
     }
     @media screen and (max-width: 768px) {
-        height: 89vh;
+        height: 31rem;
     }
     @media screen and (max-width: 600px) {
-        height: 65vh;
+        height: 26rem;
     }
     @media screen and (max-width: 426px) {
-        height: 50vh;
+        height: 20rem;
     }
     @media screen and (max-width: 376px) {
-        height: 45vh;
+        height: 18rem;
     }
     @media screen and (max-width: 320px) {
-        height: 42vh;
+        height: 15rem;
     }
 `;
