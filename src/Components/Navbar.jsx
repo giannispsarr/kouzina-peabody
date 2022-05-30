@@ -247,11 +247,11 @@ const Nav = styled.nav`
             }
         }
         .links {
-            gap: 1.2rem;
+            gap: 1.3rem;
             li {
                 a {
-                    font-size: 1rem;
-                    letter-spacing: 0.1rem;
+                    font-size: 0.9rem;
+                    letter-spacing: 0.2rem;
                 }
             }
         }
