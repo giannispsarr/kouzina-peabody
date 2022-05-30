@@ -90,7 +90,7 @@ const Categories = ({ categories, filterItems }) => {
         align-items: center;
         position: absolute;
         padding-left: 1rem;
-        bottom: 4%;
+        margin-top: -8%;
         .arrow-icon {
             color: #395667;
             font-size: 5rem;
@@ -124,7 +124,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -75%;
+          /* bottom: -75%; */
           .arrow-icon {
               font-size: 1.3rem;
           }
@@ -152,7 +152,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -75%;
+          /* bottom: -75%; */
           .arrow-icon {
               font-size: 1.3rem;
           }
@@ -178,7 +178,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -75%;
+          /* bottom: -75%; */
           .arrow-icon {
               font-size: 1.3rem;
           }
@@ -204,7 +204,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -73%;
+          /* bottom: -73%; */
           .arrow-icon {
               font-size: 1.1rem;
           }
@@ -230,7 +230,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -73%;
+          /* bottom: -73%; */
           .arrow-icon {
               font-size: 1.1rem;
           }
@@ -256,7 +256,7 @@ const Categories = ({ categories, filterItems }) => {
           justify-content: space-between;
           align-self: center;
           padding-left: 0rem;
-          bottom: -67%;
+          /* bottom: -67%; */
           .arrow-icon {
               font-size: 1rem;
           }

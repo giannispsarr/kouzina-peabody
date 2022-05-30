@@ -249,7 +249,7 @@ const Nav = styled.nav`
             gap: 1.2rem;
             li {
                 a {
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                     letter-spacing: 0.1rem;
                 }
             }

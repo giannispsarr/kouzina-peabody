@@ -10,9 +10,9 @@ import { Element } from 'react-scroll';
 export default function App () {
   return <>
   <Navbar/>
-  {/* <Element id='Home' name='Home'>
+  <Element id='Home' name='Home'>
     <Video/>
-  </Element> */}
+  </Element>
   <Element id='Menu' name='Menu'>
     <Menu/>
   </Element>

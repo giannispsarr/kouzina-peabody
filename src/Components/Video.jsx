@@ -23,7 +23,7 @@ const VideoContainer = styled.div`
         object-fit: cover;
     }
     @media screen and (max-width: 768px) {
-        height: 90vh;
+        height: 89vh;
     }
     @media screen and (max-width: 600px) {
         height: 65vh;
