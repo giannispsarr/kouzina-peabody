@@ -239,7 +239,7 @@ const Nav = styled.nav`
     }
 }
     @media screen and (max-width: 2560px) {
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0.9rem;
         .brand {
             /* width: 100%; */
             img {
