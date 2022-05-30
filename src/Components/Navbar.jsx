@@ -50,7 +50,7 @@ export default function Navbar({sticky}) {
                             Menu
                         </ScrollLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <ScrollLink 
                             to="AboutUs" 
                             spy={true} 
@@ -63,7 +63,7 @@ export default function Navbar({sticky}) {
                         >
                             About Us
                         </ScrollLink>
-                    </li>
+                    </li> */}
                     <li>
                         <ScrollLink 
                             to="Gallery" 
@@ -78,7 +78,7 @@ export default function Navbar({sticky}) {
                             Gallery
                         </ScrollLink>
                     </li>
-                    <li><a href="#services" >Order Online</a></li>
+                    {/* <li><a href="#services" >Order Online</a></li> */}
                 </ul>
                 <div className='toggle'>
                     <GiHamburgerMenu color='#42453c' fontSize={33} onClick={() => {setToggleMenu(true)}}/>
@@ -113,7 +113,7 @@ export default function Navbar({sticky}) {
                                         Menu
                                     </ScrollLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <ScrollLink 
                                         to="AboutUs" 
                                         spy={true} 
@@ -125,7 +125,7 @@ export default function Navbar({sticky}) {
                                     >
                                         About Us
                                     </ScrollLink>
-                                </li>
+                                </li> */}
                                 <li>
                                     <ScrollLink 
                                         to="Gallery" 
@@ -139,7 +139,7 @@ export default function Navbar({sticky}) {
                                         Gallery
                                     </ScrollLink>
                                 </li>
-                                <li><a href="#services" >Order Online</a></li>
+                                {/* <li><a href="#services" >Order Online</a></li> */}
                             </ul>
                         </div>
                     )}                        
