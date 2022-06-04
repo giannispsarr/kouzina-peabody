@@ -50,7 +50,7 @@ export default function Navbar({sticky}) {
                             Menu
                         </ScrollLink>
                     </li>
-                    {/* <li>
+                    <li>
                         <ScrollLink 
                             to="AboutUs" 
                             spy={true} 
@@ -63,7 +63,7 @@ export default function Navbar({sticky}) {
                         >
                             About Us
                         </ScrollLink>
-                    </li> */}
+                    </li>
                     <li>
                         <ScrollLink 
                             to="Gallery" 
@@ -113,7 +113,7 @@ export default function Navbar({sticky}) {
                                         Menu
                                     </ScrollLink>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <ScrollLink 
                                         to="AboutUs" 
                                         spy={true} 
@@ -125,7 +125,7 @@ export default function Navbar({sticky}) {
                                     >
                                         About Us
                                     </ScrollLink>
-                                </li> */}
+                                </li>
                                 <li>
                                     <ScrollLink 
                                         to="Gallery" 

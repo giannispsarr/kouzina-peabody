@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo05 from '../assets/Logos-05-cropped.png'
 import styled from 'styled-components';
+import bookCover from '../assets/image001.jpg'
 
 export default function AboutUs() {
   return (
@@ -13,9 +14,26 @@ export default function AboutUs() {
       </div>
       <div className='about-text'>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt hic saepe est enim corporis repudiandae ab? Laudantium incidunt ducimus cupiditate. Placeat itaque veritatis esse nostrum dolores debitis minima alias voluptatem.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere doloribus cupiditate minus quod expedita voluptates dolores tenetur corporis non, similique repudiandae obcaecati, et sint amet quasi. Quos architecto blanditiis ipsum.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis, officiis hic ad nisi, pariatur maiores deleniti cupiditate amet expedita at voluptates. Quia dicta molestiae laborum incidunt exercitationem, omnis quibusdam.
+        Jimmy and Penny Christopher immigrated to Boston from Greece. 
+        They met and married in the US and went on to open multiple restaurants on the North Shore. 
+        Jimmy retired in 2012 and Penny decided to carry on the family business with her son Paul. 
+        They previously operated Brothers Kouzina on Rte 1 in Peabody.  When they closed Brothers Kouzina, they shifted their focus to their other restaurants in Boston, Gyro City (in Fenway and Brighton). 
+        While they still love Gyro City, they longed to bring Kouzina back to their friends on the Northshore. 
+        Penny used her years of experience in the restaurant business along with her love for design in order to bring an authentic Greek grill to Peabody. 
+        Today, Penny and Paul operate Kouzina where they follow Jimmy’s recipes in order to provide the most authentic Greek food outside of Athens. 
+        All of the food is handmade and prepared freshly every day. 
+        <br/>
+        <br/>
+        <br/>
+        To read more about Jimmy Christopher and his extraordinary life, please follow the link below to read a book written about his generous life:
+        <br/>
+        <br/>
+        <a href="https://www.blurb.com/bookstore/invited/9493850/4a45d9c0162c16db7cdda54ee3fe324f843ab8eb?fbclid=IwAR2Sk1uSqyQ1jVzwhBKmpTAz7fxW8hs6Tia3EwYVGryro5vGVdj8yMc6GIg" target="_blank">
+          Jimmy Christopher by BBD, Angie Guarracino | Blurb Books
+        </a>
+        <br/>
+        <br/>
+        <img src={bookCover} />
         </p>
         <div className='text-underline'/>
       </div>
@@ -72,6 +90,14 @@ const AboutUsComp = styled.div`
       text-align: center;
       margin-left: 33rem;
       margin-right: 33rem;
+      a {
+        font-family: 'Commissioner', sans-serif;
+        color: #395667;
+        font-weight: 400;
+      }
+      img {
+        width: 1100px;
+      }
     }
     .text-underline {
       width: 12rem;
@@ -91,7 +117,7 @@ const AboutUsComp = styled.div`
       width: 800px;
     }
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 2560px) {
     width: inherit;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -117,6 +143,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 4rem;
         margin-right: 4rem;
+        img {
+          width: 320px;
+        }
       }
       .text-underline {
         width: 6rem;
@@ -157,6 +186,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 4rem;
         margin-right: 4rem;
+        img {
+          width: 320px;
+        }
       }
       .text-underline {
         width: 6rem;
@@ -197,6 +229,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 4rem;
         margin-right: 4rem;
+        img {
+          width: 250px;
+        }
       }
       .text-underline {
         width: 6rem;
@@ -236,6 +271,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 3.5rem;
         margin-right: 3.5rem;
+        img {
+          width: 200px;
+        }
       }
       .text-underline {
         width: 5rem;
@@ -275,6 +313,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 3.5rem;
         margin-right: 3.5rem;
+        img {
+          width: 180px;
+        }
       }
       .text-underline {
         width: 5rem;
@@ -315,6 +356,9 @@ const AboutUsComp = styled.div`
         line-height: 1.3;
         margin-left: 3.5rem;
         margin-right: 3.5rem;
+        img {
+          width: 170px;
+        }
       }
       .text-underline {
         width: 5rem;

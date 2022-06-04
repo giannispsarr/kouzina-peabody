@@ -16,9 +16,9 @@ export default function App () {
   <Element id='Menu' name='Menu'>
     <Menu/>
   </Element>
-  {/* <Element id='AboutUs' name='AboutUs'>
+  <Element id='AboutUs' name='AboutUs'>
     <AboutUs/>
-  </Element> */}
+  </Element>
   <Element id='Gallery' name='Gallery'>
     <Gallery/>
   </Element>
