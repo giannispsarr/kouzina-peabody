@@ -23,20 +23,17 @@ export default function Gallery() {
             <div className='gallery-overline'/>
         </GalleryOverline>
         <GallerySection>
-            {/* <div className='gallery-overline'/> */}
             <div className='gallery-content'>
                 <div className='gallery-title'>
                     <h2>Gallery</h2>
                     <div className='gallery-underline'/>
-                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p> */}
                 </div>
             </div>
             <div className='gallery-images'>
                 <div className='images-container' ref={scrollRef}>
-                {[images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05, images.gallery06].map((image, index) => (
+                {[images.gallery1, images.gallery2, images.gallery3, images.gallery4, images.gallery5, images.gallery6, images.gallery7, images.gallery8, images.gallery9, images.gallery10, images.gallery11, images.gallery12, images.gallery13, images.gallery14].map((image, index) => (
                     <div className="images-card " key={`gallery-image-${index + 1}`}>
                     <img src={image} alt="gallery-image" />
-                    {/* <BsInstagram className="image-icon" /> */}
                     </div>
                 ))}
                 </div>
