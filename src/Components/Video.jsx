@@ -6,7 +6,7 @@ export default function Video() {
   return (
     <>
     <VideoContainer>
-        <video autoplay loop muted playsinline>
+        <video autoPlay loop muted playsinline nocontrols>
             <source src={video} type='video/mp4'/>
         </video>
     </VideoContainer>
