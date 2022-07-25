@@ -84,18 +84,6 @@ const menu = [
         description: "Jimmy's Specialty. Simmered Lamb in a Savory Greek Tomato Sauce"
     },
     {
-        id: 15,
-        title: 'Brizola',
-        category: 'dinners',
-        description: 'Marinated Grilled Pork Loin'
-    },
-    {
-        id: 16,
-        title: 'Moscharisia Brizola',
-        category: 'dinners',
-        description: 'Grilled Ribeye Steak'
-    },
-    {
         id: 17,
         title: 'Solomos',
         category: 'dinners',
@@ -111,7 +99,7 @@ const menu = [
         id: 19,
         title: 'Makaronia me kima',
         category: 'dinners',
-        description: 'Traditional Greek style Bolognaise with Mizithra Cheese'
+        description: 'Traditional Greek style Bolognaise with Mizithra Cheese. Served with no sides.'
     },
     {
         id: 20,
@@ -121,21 +109,15 @@ const menu = [
     },
     {
         id: 21,
-        title: 'Pastitsio',
+        title: 'Pastichio',
         category: 'dinners',
-        description: 'Baked Pasta with Ground Beef, Seasoned, Tossed and Finally Topped with a Bechamel'
+        description: 'Baked Pasta with Ground Beef, Seasoned, Tossed and Topped with a Bechamel'
     },
     {
         id: 22,
         title: 'Mousaka',
         category: 'dinners',
         description: 'Eggplant with a Roasted Potato Base, Layered with Groung Beef Raghu and Topped with Homemade Bechamel Sauce and Cheese'
-    },
-    {
-        id: 23,
-        title: 'Gemista',
-        category: 'dinners',
-        description: 'Tomatoes and Peppers Stuffed with Rice and Herbs'
     },
     {
         id: 78,
@@ -175,19 +157,19 @@ const menu = [
     },
     {
         id: 24,
-        title: 'Elliniki',
+        title: 'Elliniki - Greek',
         category: 'salads',
         description: 'Mixed Greens with Tomatoes, Onions, Cucumbers, Feta Cheese and Kalamata Olives'
     },
     {
         id: 25,
-        title: "Horiatiki",
+        title: "Horiatiki - Village",
         category: 'salads',
         description: 'A Fully Traditional Village Salad with Tomatoes, Onions, Cucumbers, Aged Barrel Feta Cheese and Kalamata Olives Tossed in Olive Oil and Oregano'
     },
     {
         id: 26,
-        title: 'Prasini',
+        title: 'Prasini - Chopped',
         category: 'salads',
         description: 'Finely Chopped Romain Lettuce, Scallions, Dill, Cucumber, Extra Virgin Olive Oil and a Splash of Vinegar.'
     },
@@ -240,12 +222,6 @@ const menu = [
         description: 'Homemade Chicken Egg, Lemon and Rice Soup'
     },
     {
-        id: 30,
-        title: "Fakes",
-        category: 'soups/spreads',
-        description: 'Lentil Soup'
-    },
-    {
         id: 37,
         title: 'Patates tiganites',
         category: 'sides',
@@ -254,12 +230,12 @@ const menu = [
     {
         id: 38,
         title: 'Greek Fries',
-        category: 'sides',
+        category: 'appetizers',
         description: 'Freshly Cut French Fries Topped with Aged Feta and Oregano'
     },
     {
         id: 39,
-        title: 'Roast Potatoes',
+        title: 'Roasted Potatoes',
         category: 'sides',
         description: 'Oven Roasted Potatoes with Lemon, Oregano and Garlic'
     },
@@ -289,9 +265,9 @@ const menu = [
     },
     {
         id: 44,
-        title: 'Gyro',
+        title: 'Chicken Fingers & Fries',
         category: 'sides',
-        description: 'Shaved Pork or Chicken Layered the Right Way, Seasoned and Cooked Slowly'
+        description: ''
     },
     {
         id: 46,
@@ -399,6 +375,30 @@ const menu = [
         id: 66,
         title: 'Cappuccino',
         category: 'kafe',
+        description: ''
+    },
+    {
+        id: 67,
+        title: 'Gyro App',
+        category: 'appetizers',
+        description: 'Pork or Chicken Gyro with Tomatoes Onions Pita and Tzatziki Sauce'
+    },
+    {
+        id: 68,
+        title: 'Pastichio',
+        category: 'appetizers',
+        description: 'Baked Pasta with Ground Beef Seasoned, Tossed, and Topped with Bechamel Sauce'
+    },
+    {
+        id: 69,
+        title: 'Mousaka',
+        category: 'appetizers',
+        description: 'Zucchini and Potato Layered with Ground Beef and Topped with Homemade Bechamel Sauce'
+    },
+    {
+        id: 30,
+        title: 'Macaroni with Butter',
+        category: 'sides',
         description: ''
     }
     //,
