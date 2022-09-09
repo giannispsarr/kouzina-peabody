@@ -78,7 +78,7 @@ export default function Navbar({sticky}) {
                             Gallery
                         </ScrollLink>
                     </li>
-                    {/* <li><a href="#services" >Order Online</a></li> */}
+                    <li><a href="https://www.toasttab.com/kouzina-peabody" >Order Online</a></li>
                 </ul>
                 <div className='toggle'>
                     <GiHamburgerMenu color='#42453c' fontSize={33} onClick={() => {setToggleMenu(true)}}/>
@@ -139,7 +139,7 @@ export default function Navbar({sticky}) {
                                         Gallery
                                     </ScrollLink>
                                 </li>
-                                {/* <li><a href="#services" >Order Online</a></li> */}
+                                <li><a href="https://www.toasttab.com/kouzina-peabody" >Order Online</a></li>
                             </ul>
                         </div>
                     )}                        
