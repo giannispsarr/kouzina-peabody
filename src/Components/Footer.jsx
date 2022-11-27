@@ -41,6 +41,14 @@ export default function Footer() {
           <p>+1 978 896 6440</p>
           <p>kouzinapeabody@gmail.com</p>
           <p>134 Newbury St. Peabody, MA</p>
+          <p> Opening Hours:
+            <ul>
+              <li>Mon, Wed, Thu 11 am - 9 pm</li>
+              <li>Fri, Sat 11 am - 10 pm</li>
+              <li>Sun 11 am - 8 pm</li>
+              <li>Tue Closed</li>
+            </ul>
+          </p>
       </div>
     </Section>
     <LowerFooter className='lower_footer'>
@@ -69,7 +77,7 @@ const Section = styled.footer`
         font-family: 'Bosch';
       }
     p {
-      font-size: 4.5rem;
+      font-size: 4rem;
       font-family: 'Commissioner', sans-serif;
       letter-spacing: 0.1rem;
     }
@@ -115,6 +123,7 @@ const Section = styled.footer`
     width: auto;
     display: flex;
     flex-direction: column;
+    gap: 0.02rem;
     .title{
       h3 {
         font-size: 6.5rem;
@@ -123,9 +132,14 @@ const Section = styled.footer`
       }
     }
     p {
-      font-size: 4.5rem;
+      font-size: 4rem;
       font-family: 'Commissioner', sans-serif;
       letter-spacing: 0.1rem;
+      ul {
+        li {
+          font-size: auto;
+        }
+      }
     }
   }
   @media screen and (max-width: 2560px) {
