@@ -3,6 +3,7 @@ import Categories from './Categories';
 import MenuDisplay from './MenuDisplay';
 import items from './data';
 import styled from 'styled-components';
+import lunchMenu from '../assets/lunchMenu.pdf';
 
 const allCategories = [...new Set(items.map((item) => item.category))]
 
@@ -25,8 +26,8 @@ export default function Menu() {
         <div className='underline'/>
       </div>
       <Categories categories={categories} filterItems={filterItems}/>
-      {/* <div className='underline2'/> */}
       <MenuDisplay items={menuItems}/>
+      <h3>Click <a href={lunchMenu} target="_blank" rel="noopener noreferrer">Here</a> for our Lunch Menu Specials</h3>
     </MenuSection>
     </>
   );
@@ -36,13 +37,7 @@ const MenuSection = styled.div`
   background-color: #b8c2c5;
   padding-top: 7rem;
   padding-bottom: 7rem;
-  /* .underline2 {
-    width: 35rem;
-    height: 0.35rem;
-    background: #7b5750;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+  
   .menu-overline {
     width: 70vw;
     height: 1rem;
@@ -74,6 +69,21 @@ const MenuSection = styled.div`
       margin-right: auto;
     }
   }
+  h3 {
+      text-align: center;
+      font-weight: 500;
+      font-family: 'Commissioner', sans-serif;
+      color: #395667;
+      a {
+        color: #7b5750;
+        font-weight: 500;
+        font-family: 'Commissioner', sans-serif;
+        text-decoration: none;
+        &:hover {
+          color: #b89f93;
+        }
+      }
+    }
   @media screen and (max-width: 2560px) {
     width: inherit;
     padding-top: 3rem;
